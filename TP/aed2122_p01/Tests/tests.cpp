@@ -5,7 +5,7 @@
 
 using testing::Eq;
 
-/*
+
 TEST(test_1, abrirParque){
     ParqueEstacionamento p1(4, 6);
     // Testa se o parque foi aberto com a lotacao indicada
@@ -93,4 +93,4 @@ TEST(test_1, lugaresLotacaoParque){
     // Testa se o o numero de clientes registados no parque esta correcto
     ASSERT_EQ(3, p1.getNumClientesAtuais());
 }
-*/
+
