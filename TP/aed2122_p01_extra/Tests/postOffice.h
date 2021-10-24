@@ -29,8 +29,10 @@ public:
 // TODO
 class NoPostmanException
 {
+    string postmanName;
 public:
-	   string getName() const {return ""; }
+    NoPostmanException(string name): postmanName(name){}
+    string getName() const {return postmanName; }
 };
 
 

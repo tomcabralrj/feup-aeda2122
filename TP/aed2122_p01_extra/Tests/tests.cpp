@@ -84,7 +84,7 @@ TEST(test_1, endOfDay){
 TEST(test_1, addMailToPostman){
     PostOffice po;
     Postman p1;
-    p1. setName("joao");
+    p1.setName("joao");
     p1.addMail(new RegularMail("ana", "rui","4400-146", 33));
     p1.addMail(new RegularMail("luis", "rui","4400-146", 33));
     Postman p2;
